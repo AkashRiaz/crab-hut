@@ -1,0 +1,24 @@
+.butn {
+    font-family: 'Pirata One', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 12px 24px;
+    background: transparent;
+    position: relative;
+    z-index: 3;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none !important;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #991b1f;
+}
+.butn:hover{
+  display: inline-block;
+  color: black;
+  background:#FFA43B;
+}
+.divider-btn{
+    border: 1px dotted black;
+}
